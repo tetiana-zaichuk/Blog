@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+   
+    background-image: url("1slovenia.jpg");
+    background-size: auto;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: sidebar;
+}
+
+footer{
+    grid-area: footer;
+}
+
+img {
+    border-style: none;
+}
+
+.slLogo{
+    width: 100%;
+}
+
+.logo{
+    max-width: 150px;
+    grid-column: 1 / 5;
+    grid-row: span 2;
+    align-self: center;
+}
+
+.background{
+    display: block;
+    
+    grid-column: 1/7;
+    position: absolute;
+    z-index: -1;
+}
+
+.right{
+    justify-self: end; 
+    grid-column: 5 / 7;
+}
+
+.social{
+    margin-top: 15px;
+    justify-self: end;
+    text-align: right;    
+}
+
+.search{
+    margin-top: 15px;
+    justify-self: end;
+    margin-bottom: 75px;
+}
+
+#menuToggle{
+    justify-self: stretch; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /*grid-template-rows: auto;*/
+    grid-template-areas: 
+    "header header"
+    "main sidebar"
+    "footer footer";
+    grid-gap: 10px;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li{
+      float: left;
+    }
+  
+  a li {
+    display: block;
+    background-color: rgb(71, 193, 241);
+  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #menu a :hover {
+    background-color:rgb(87, 220, 253);
+  }
+  
+  #menuToggle span,  #menuToggle input
+  {
+    display: none;
+  }
+
