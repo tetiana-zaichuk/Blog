@@ -7,25 +7,26 @@
     <title>Blog</title>
     <link rel="stylesheet" type="text/css" href="style-sheets.css">
     <link rel="stylesheet" type="text/css" href="mediaStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
         <header>
             <div class="logo">
-                <img src="Slovenia3.png" alt="Logo" class="slLogo">
+                <img src="images/Slovenia3.png" alt="Logo" class="slLogo">
             </div>
             <div class="search">
                 <a href="https://www.google.com.ua/maps/place/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F/@46.1273099,12.7501716,7z/data=!3m1!4b1!4m5!3m4!1s0x476524e75e968361:0xe740451e25e2d465!8m2!3d46.151241!4d14.995463">
-                    <img src="search.png" alt="search">
+                    <img src="images/search2.png" alt="search">
                 </a>
             </div>
             <div class="social">
                 <a href="https://www.facebook.com/THESLOVENIA/">
-                    <img src="facebook.png" alt="facebook">
+                    <img src="images/facebook.png" alt="facebook">
                 </a>
                 <a href="https://twitter.com/sloveniainfo">
-                    <img src="twitter.png" alt="twitter">
+                    <img src="images/twitter.png" alt="twitter">
                 </a>
             </div>
             <div class="right">
@@ -61,18 +62,19 @@
 
         <main class="main">
             <div class="title">
-                    Top experiences in Slovenia
-                </div>
+                Top experiences in Slovenia
+            </div>
             <div class="cont">
-                
 
                 <div class="event">
                     <div class="caption1">
                         <p class="textTop">Climbing Mt Triglav</p>
                         <p class="textDown">Triglav National Park</p>
-                        <p class="textDown">07.2018</p>
+                        <p class="textDown">Two hours ago</p>
                     </div>
-                    <p class="stat"> Comments: 7 | Rating: 9.8 </p>
+                    <p class="stat">
+                        <img src="images/comments.png" alt="comments"> 9
+                        <img src="images/star.png" alt="rating"> 9.8 </p>
                     <div class="description">The 2864m limestone peak called Triglav (Three Heads) has been a source of inspiration and an object
                         of devotion for Slovenes for more than a millennium – it even appears on the country's flag. The
                         early Slavs believed the mountain to be the home of a three-headed deity who ruled the sky, the earth
@@ -83,9 +85,11 @@
                     <div class="caption2">
                         <p class="textTop">Piran</p>
                         <p class="textDown">Piran</p>
-                        <p class="textDown">07.2018</p>
+                        <p class="textDown">Three hours ago</p>
                     </div>
-                    <p class="stat"> Comments: 15 | Rating: 9.7 </p>
+                    <p class="stat">
+                        <img src="images/comments.png" alt="comments"> 15
+                        <img src="images/star.png" alt="rating"> 9.7 </p>
                     <div class="description">One of the loveliest towns anywhere along the Adriatic Coast, picturesque Piran (Pirano in Italian),
                         sits prettily at the tip of a narrow peninsula. Its Old Town – one of the best-preserved historical
                         towns anywhere in the Mediterranean – is a gem of Venetian Gothic architecture, but it can be a mob
@@ -97,9 +101,11 @@
                     <div class="caption3">
                         <p class="textTop">River Adventures</p>
                         <p class="textDown">Bovec</p>
-                        <p class="textDown">07.2018</p>
+                        <p class="textDown">One year ago</p>
                     </div>
-                    <p class="stat"> Comments: 8 | Rating: 9.5 </p>
+                    <p class="stat">
+                        <img src="images/comments.png" alt="comments"> 8
+                        <img src="images/star.png" alt="rating"> 9.5 </p>
                     <div class="description">Soča Valley's de-facto capital, Bovec offers plenty for adventure-sports enthusiasts. With the Julian
                         Alps above, the Soča River below and Triglav National Park all around, you could spend a week here
                         rafting, hiking, kayaking, mountain biking and, in winter, skiing, without ever doing the same thing
@@ -111,9 +117,11 @@
                     <div class="caption4">
                         <p class="textTop">Lake Bled</p>
                         <p class="textDown">Lake Bled</p>
-                        <p class="textDown">2018</p>
+                        <p class="textDown">One month ago</p>
                     </div>
-                    <p class="stat"> Comments: 21 | Rating: 10.0 </p>
+                    <p class="stat">
+                        <img src="images/comments.png" alt="comments"> 21
+                        <img src="images/star.png" alt="rating"> 10.0 </p>
                     <div class="description">Bled’s greatest attraction is its exquisite blue-green lake, measuring just 2km by 1.4km. The lake is
                         lovely to behold from almost any vantage point, and makes a beautiful backdrop for the 6km walk along
                         the shore. Mild thermal springs warm the water to a swimmable 23°C (73°F) from June through August.
@@ -125,7 +133,49 @@
         </main>
 
         <aside class="aside">
-            aside
+             <p class="name">Melania Trump</p>
+            <div class="author">                
+                <img src="images/melania-trump.jpeg" alt="author" class="authorM">
+                <div>                   
+                    <p><b>Age:</b> 48</p>
+                    <p><b>Born:</b> Novo Mesto, Slovenia</p>
+                    <p><b>Spouse(s):</b> Donald Trump</p>                    
+                    <p>First Lady of the United States</p>
+                </div>
+            </div>
+            <div class="social-center">
+                <a href="https://www.facebook.com/THESLOVENIA/">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://twitter.com/sloveniainfo">
+                    <img src="images/twitter.png" alt="twitter">
+                </a>
+            </div>
+            <div class="sub-container">
+                <form method="post" action="http://localhost:8080/n.php">
+                    <p>
+                        <input name="name" type="text" placeholder="Name.." />
+                    </p>
+                    <p>
+                        <input name="email" type="email" placeholder="Email.." />
+                    </p>
+                    <p>
+                        <input type="submit" value="Subscribe" />
+                    </p>
+                </form>
+            </div>
+
+            <div class="search-container">
+                <form action="www.google.com.ua">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div>teg</div>
+            <div>com+photo</div>
         </aside>
 
         <footer>
