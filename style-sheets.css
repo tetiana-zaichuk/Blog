@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-.content {
-   
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 60px;
-}
-
 header {
     grid-area: header;
     display: grid;
@@ -22,6 +15,7 @@ header {
 
 .main {
     grid-area: main;
+    grid-gap: 15px;
 }
 
 .aside {
@@ -33,10 +27,10 @@ footer{
 }
 
 img {
-    border-style: none;
+    border-style: none;    
 }
 
-.slLogo{
+.slLogo, imgEv{
     width: 100%;
 }
 
@@ -117,3 +111,112 @@ img {
     display: none;
   }
 
+
+.cont{    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    grid-gap: 15px;
+    justify-content: space-between;
+}
+
+  .cont .event{      
+    width: 270px;
+    border: 2px solid  #1a7508be;
+
+    background: #fff;
+    height: 397px;
+}
+
+.title{
+    font-size: 25px;
+    color: rgb(51, 128, 230);
+    text-align: center;
+    margin: 7px 0;
+}
+
+.caption1{
+    text-align: end;
+    padding: 15px;
+    background-image: url("1.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption1:hover{
+    background-image: url("1.jpg");
+    background-size: 320px;
+}
+
+.caption2{
+    text-align: end;
+    padding: 15px;
+    background-image: url("2.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption2:hover{
+    background-image: url("2.jpg");
+    background-size: 320px;
+}
+
+.caption3{
+    text-align: end;
+    padding: 15px;
+    background-image: url("3.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption3:hover{
+    background-image: url("3.jpg");
+    background-size: 320px;
+}
+
+.caption4{
+    text-align: end;
+    padding: 15px;
+    background-image: url("4.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption4:hover{
+    background-image: url("4.jpg");
+    background-size: 320px;
+}
+
+.textTop{
+    font-size: 1.3em;
+    margin:  0.9rem 0;
+    font-weight: 700;
+}
+
+.textDown{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.stat{
+    text-align: center;
+    padding: 5px;
+}
+
+.imgEvent{
+    max-width: 15px;
+}
+.imgEv{
+    max-width: 100px;
+}
+
+.description{
+    text-align: center;
+    margin: 5px;
+    width: 250px; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    }
+}

@@ -42,15 +42,15 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 550px;
+  height: 325px;
   margin: -50px 0 0 -50px;
   padding: 35px;
-  padding-top: 57px;
+  padding-top: 93px;
   
   background: rgb(71, 193, 241);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -58,20 +58,21 @@
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
+#menu li:checked ~ ul
 {
   padding: 10px 0;
   font-size: 22px;
   display: block;
-  /*float: none;
-  text-decoration: none;*/
+  float: none;
+  text-decoration: none;
 }
-a:not(:first-child) {display: none;}
+
+
+
 a{
   text-decoration: none;
 }
 
-/* And let's slide it in from the left  */
 #menuToggle input:checked ~ ul
 {
   transform: none;
