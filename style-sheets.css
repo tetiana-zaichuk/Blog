@@ -22,7 +22,7 @@ header {
     grid-area: sidebar;
 }
 
-footer{
+footer{   
     grid-area: footer;
 }
 
@@ -102,6 +102,10 @@ img {
     transition: color 0.3s ease;
   }
   
+    #menu a{
+        color:#faeb1d;
+    }
+
   #menu a :hover {
     background-color:rgb(87, 220, 253);
   }
@@ -131,9 +135,10 @@ img {
 
 .title{
     font-size: 25px;
-    color: rgb(51, 128, 230);
+    color: rgb(15, 16, 19);
     text-align: center;
     margin: 7px 0;
+    font-weight: 700;
 }
 
 .stat img{
@@ -233,9 +238,6 @@ img {
     grid-template-columns: repeat(2, 180px);
     grid-gap: 15px;
     justify-content: start;    
-    /*grid-column: 1 / 5;
-    grid-row: span 2;
-    justify-self: center;*/
 }
 
 .name{
@@ -318,3 +320,53 @@ img {
     display: table;
 }
 
+.comments {
+    /*max-width: 170px;*/
+    display: grid;
+    grid-template-columns: 93px auto;
+    grid-gap: 15px;
+    justify-content: start;    
+}
+
+.comment {
+    width: 250px; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.user-name {
+    margin: 17px 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user{
+    border: 2px solid  #1a7508be;
+    border-radius: 50%;
+    width: 83px;
+    background-color: #0b7dda;
+    margin: 5px;
+}
+
+.art{
+    text-align: center;
+    font-size: 19px;
+    font-style: oblique;
+}
+
+.tag{
+    margin: 23px 0;
+    text-align: center;
+}
+
+.tag a{
+    padding: 7px;
+    font-size: 17px;
+}
+
+.tag a:hover{
+    color: #0b7dda;
+    font-size: 19px;
+}
