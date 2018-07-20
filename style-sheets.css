@@ -145,58 +145,6 @@ img {
     width: 15px;
 }
 
-.caption1{
-    text-align: end;
-    padding: 15px;
-    background-image: url("images/1.jpg");
-    background-size: auto;
-    height: 300px;
-}
-
-.caption1:hover{
-    background-image: url("images/1.jpg");
-    background-size: 320px;
-}
-
-.caption2{
-    text-align: end;
-    padding: 15px;
-    background-image: url("images/2.jpg");
-    background-size: auto;
-    height: 300px;
-}
-
-.caption2:hover{
-    background-image: url("images/2.jpg");
-    background-size: 320px;
-}
-
-.caption3{
-    text-align: end;
-    padding: 15px;
-    background-image: url("images/3.jpg");
-    background-size: auto;
-    height: 300px;
-}
-
-.caption3:hover{
-    background-image: url("images/3.jpg");
-    background-size: 320px;
-}
-
-.caption4{
-    text-align: end;
-    padding: 15px;
-    background-image: url("images/4.jpg");
-    background-size: auto;
-    height: 300px;
-}
-
-.caption4:hover{
-    background-image: url("images/4.jpg");
-    background-size: 320px;
-}
-
 .textTop{
     font-size: 1.3em;
     margin:  0.9rem 0;
@@ -368,5 +316,9 @@ img {
 
 .tag a:hover{
     color: #0b7dda;
-    font-size: 19px;
+}
+
+.foot{
+    text-align: center;
+    justify-self: center;
 }

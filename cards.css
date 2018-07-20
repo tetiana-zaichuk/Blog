@@ -1,0 +1,66 @@
+
+.caption1{
+    text-align: end;
+    padding: 15px;
+    background-image: url("images/1.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption1:hover{
+    background-image: url("images/1.jpg");
+    background-size: 320px;
+}
+
+.caption2{
+    text-align: end;
+    padding: 15px;
+    background-image: url("images/2.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption2:hover{
+    background-image: url("images/2.jpg");
+    background-size: 320px;
+}
+
+.caption3{
+    text-align: end;
+    padding: 15px;
+    background-image: url("images/3.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption3:hover{
+    background-image: url("images/3.jpg");
+    background-size: 320px;
+}
+
+.caption4{
+    text-align: end;
+    padding: 15px;
+    background-image: url("images/4.jpg");
+    background-size: auto;
+    height: 300px;
+}
+
+.caption4:hover{
+    background-image: url("images/4.jpg");
+    background-size: 320px;
+}
+
+.caption5{
+    text-align: end;
+    padding: 15px;
+    background-image: url("images/5.jpg");
+    background-size: auto;
+    height: 300px;
+    color: #faeb1d;
+}
+
+.caption5:hover{
+    background-image: url("images/5.jpg");
+    background-size: 320px;
+}
